@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_8dp"
+    android:layout_marginRight="@dimen/dimen_8dp">
+
+    <ImageView
+        android:id="@+id/img_usr"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_user_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Shivam Jaiswal"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/img_usr"
+        app:layout_constraintStart_toStartOf="@id/img_usr"
+        app:layout_constraintTop_toBottomOf="@id/img_usr" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/invite"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Invite"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/name"-->
+<!--        app:layout_constraintStart_toStartOf="@id/img_usr"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/img_usr"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:background="@color/green"-->
+<!--        android:padding="6dp"-->
+<!--        android:textStyle="bold"/>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:background="@color/green"
+        app:layout_constraintEnd_toEndOf="@id/img_usr"
+        app:layout_constraintStart_toStartOf="@id/img_usr"
+        app:layout_constraintTop_toBottomOf="@id/name">
+
+        <TextView
+            android:id="@+id/invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INVITE"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@id/img_usr"
+            app:layout_constraintStart_toStartOf="@id/img_usr"
+            app:layout_constraintTop_toBottomOf="@id/img_usr" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

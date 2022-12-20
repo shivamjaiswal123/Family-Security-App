@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Family</string>
+
+    <string name="security">Security</string>
+
+    <string name="sos_text">SOS</string>
+    <string name="sos_msg_text">In case of emergency, keep telling family members to contact me</string>
+
+    <string name="gaurd_text">Gaurd</string>
+    <string name="gaurd_msg_text">Open when you are on a potential dangerous journey</string>
+
+    <string name="nav_home_title">Home</string>
+    <string name="nav_dashboard_title">Dashboard</string>
+    <string name="nav_gaurd_title">Gaurd</string>
+    <string name="nav_profile_title">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyAvu0eBTMVXQBBOZi0pJu4VLUAD8SR3dCo</string>
+</resources>
